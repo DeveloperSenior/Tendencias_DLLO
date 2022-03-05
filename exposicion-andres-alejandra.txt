@@ -1,0 +1,60 @@
+https://prezi.com/view/gPcoYoBs7sXBLSTokp18/
+1. Nombre del paciente: (nombre - apellido)
+
+** FRED BRAUN
+
+(Las preguntas 1-3 solicitan datos de antecedentes del paciente).
+
+2. Sexo:
+
+**M
+
+3.Edad:
+
+** 55
+
+4. ¿Existen cultivos para Fred Braun que puedan estar relacionados con la enfermedad actual y de los cuales los organismos se hayan cultivado con éxito en el laboratorio de microbiología?
+
+** Y
+
+- - - CULTURA - 1 - - -
+
+5. ¿De qué sitio se tomó el espécimen para CULTIVO - 1?
+
+**SANGRE
+
+=SANGRE
+
+(El sistema corrige error de digitación).
+
+6. Indique la fecha y la hora en que se obtuvo CULTURE-1. (tiempo mes/día/año)
+
+** 20 DE JUNIO DE 1977
+
+El primer organismo aislado del hemocultivo del 20-JUN-77 (CULTIVO-1) se denominará:
+
+- - ORGANISMO - 1 - - -
+
+7. Ingrese al laboratorio - identidad reportada del ORGANISMO-1:
+
+**DESCONOCIDO
+
+(Por lo general, la identidad aún no se conoce).
+
+(... siguen más preguntas para recopilar suficiente información para inferir la identidad y el significado de los organismos infectantes...)
+
+30. ¿Fred Braun tiene fiebre?
+
+** Y
+
+(... después de unas 50-60 preguntas, MYCIN imprime las hipótesis diagnósticas en las que se basará la terapia...)
+
+INFECCIÓN-1 es BACTEREMIA
+
+E.COLI [ORGANISMO-1]
+
+KLEBSIELLA [ORGANISMO-1]
+
+ENTEROBACTER [ORGANISMO-1]
+
+KLEBSIELLA-PNEUMONIAE [ORGANISMO-1
