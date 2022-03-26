@@ -10,8 +10,24 @@ def print_hi(name):
 
 
 def greet():
-    data = open('data.txt', 'r')
-    print(data.read())
+    try:
+        written = open('greet.txt', 'w')
+        written.write("Hola cosa hermosa")
+    finally:
+        written.close()
+
+    try:
+        data = open('greet.txt', 'r')
+        print(data.read())
+    finally:
+        data.close()
+
+    try:
+        written_copy = open('greet-copy.txt', 'w')
+        datacopy = open('greet.txt', 'r')
+        written_copy.write(datacopy.read())
+    finally:
+        written_copy.close()
 
 
 def sum_numbers(num1, num2):
@@ -138,6 +154,30 @@ def loops():
         print(' fin while')
 
 
+def lists():
+    personas = ['juan', 123, 'pedro', 23, 'pepe', 67]
+    print(personas)
+    personas.append(123)
+    print(personas)
+    personas.insert(1, 'pepejuan')
+    print(personas)
+    personas.remove('pepejuan')
+    print(personas)
+    personas.pop()
+    print(personas)
+    del personas[0]
+    print(personas)
+    personas.clear()
+    print(personas)
+    del personas
+    print(personas)
+
+
+def asignaturas():
+    asg = ['Tendencias', 'Calculo', 'Ingles']
+    print(asg)
+
+
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
     # print_hi('PyCharm')
@@ -151,6 +191,8 @@ if __name__ == '__main__':
     # math_operators()
     # area_perimeter_triangle()
     # operators_add()
-    loops()
+    # loops()
+    # lists()
+    asignaturas()
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
