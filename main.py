@@ -178,6 +178,37 @@ def asignaturas():
     print(asg)
 
 
+def ganadores():
+    numbers = []
+
+    print('Numero ganadores')
+    for n in range(6):
+        numbers.append(int(input('Ingresa un numero ganador')))
+
+    numbers.sort()
+    print(numbers)
+
+
+def tuples():
+    planets = ('Venus', 'Jupiter', 'Marte')
+    print(planets)
+
+
+def dataset():
+    planets = {'Venus', 'Jupiter', 'Marte'}
+    print(planets)
+    planets.add('Tierra')
+    print(planets)
+
+
+def dictionary():
+    person = {"NAME": "Andres",
+              "DNI": 1017205206}
+    print(person)
+    print(person.values())
+    print(person.get('NAME'))
+
+
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
     # print_hi('PyCharm')
@@ -193,6 +224,10 @@ if __name__ == '__main__':
     # operators_add()
     # loops()
     # lists()
-    asignaturas()
+    # asignaturas()
+    # ganadores()
+    tuples()
+    dataset()
+    dictionary()
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
